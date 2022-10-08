@@ -4,7 +4,7 @@ import pandas as pd
 
 def europarl_sample(lang1, lang2, nSample = 0):
     testdata = datasets.load_dataset('europarl_bilingual', lang1=lang1, lang2=lang2, split = 'train', 
-                                                cache_dir='/Users/ge23huw/TUM/HuggingFace/datasets/temp')
+                                                cache_dir='datasets/temp')
 
     df_pandas = testdata.to_pandas()
     pd.set_option('display.max_colwidth', None)
