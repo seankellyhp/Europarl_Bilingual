@@ -1,13 +1,13 @@
 
 # Load translated sentences 
-DATA_DIR <- '/Users/ge23huw/tumProjects/Query Translation/data/'
+DATA_DIR <- 'PROJECT DIRECTORY'
 languageCode <- "es"
 filePath <- paste0("intermediate/", languageCode, "/")
 
 library(reticulate)
 use_condaenv("datasets")
 
-source_python('/Users/ge23huw/TUM/HuggingFace/europarl_fn_full.py') 
+source_python('HuggingFace/europarl_fn_full.py') 
 
 library(quanteda)
 library(digest)

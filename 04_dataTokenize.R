@@ -1,7 +1,7 @@
 
 library(quanteda)
 
-DATA_DIR <- '/Users/ge23huw/tumProjects/Query Translation/data/'
+DATA_DIR <- 'PROJECT DIRECTORY'
 languageCode <- 'es'
 filePath <- paste0("intermediate/", languageCode, "/")
 
